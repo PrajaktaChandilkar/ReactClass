@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <!-- one method
+            <div class="btn">C</div>
+            <div class="btn">/</div>
+            <div class="btn">*</div>
+            <div class="btn">&larr;</div>
+            <div class="btn">7</div>
+            <div class="btn">8</div>
+            <div class="btn">9</div>
+            <div class="btn">-</div>
+            <div class="btn">4</div>
+            <div class="btn">5</div>
+            <div class="btn">6</div>
+            <div class="btn">+</div>
+            <div class="btn">1</div>
+            <div class="btn">2</div>
+            <div class="btn">3</div>
+            <div class="btn">.</div>
+            <div class="btn">(</div>
+            <div class="btn">0</div>
+            <div class="btn">)</div>
+            <div class="btn" id="equal">=</div> -->
+
+
+            <div class="btn" onclick="clearData()">C</div>
+            <div class="btn" onclick="getValue('/')">/</div>
+            <div class="btn" onclick="getValue('*')">*</div>
+            <div class="btn"  onclick="backValue()" >&larr;</div>
+
+            <div class="btn" onclick="getValue('7')">7</div>
+            <div class="btn" onclick="getValue('8')">8</div>
+            <div class="btn" onclick="getValue('9')">9</div>
+            <div class="btn"onclick="getValue('-')">-</div>
+
+            <div class="btn" onclick="getValue('4')">4</div>
+            <div class="btn" onclick="getValue('5')">5</div>
+            <div class="btn"  onclick="getValue('6')">6</div>
+            <div class="btn"  onclick="getValue('+')">+</div>
+
+            <div class="btn"  onclick="getValue('1')">1</div>
+            <div class="btn"  onclick="getValue('2')">2</div>
+            <div class="btn"  onclick="getValue('3')">3</div>
+            <div class="btn"  onclick="getValue('.')">.</div>
+
+            <div class="btn"  onclick="getValue(')')">(</div>
+            <div class="btn"  onclick="getValue('0')">0</div>
+            <div class="btn"  onclick="getValue(')')">)</div>
+            
+            <div class="btn" id="equal"  onclick="getResult('=')">=</div>
+
+           
+        </div>
+        
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(290deg,#0c3bd4,#0c3bd4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    padding: 15px;
+    background-color: rgb(12, 12, 150);
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    /* height: 70px; */
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.btn:hover,.stop:hover {
+    opacity: 0.9;
+  }

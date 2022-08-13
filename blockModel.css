@@ -1,0 +1,16 @@
+.div1{
+    background-color: #CD5C5C;
+    height: 20%;
+    width: 20%;
+    display: inline-block;
+}
+.div2{
+    background-color: aqua;
+    height: 20%;
+    width: 20%;
+    display: inline-block;
+}
+#span1{
+    background-color: #CD5C5C;
+    /* display: block; */
+}
